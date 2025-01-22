@@ -9,7 +9,7 @@ function convertToBool(text, fault = 'true') {
 
 
 module.exports = {
-   SESSION_ID: process.env.SESSION_ID === undefined ? 'VAJIRA-MD=aIkk0BBQ#HewL3326wo42ySUvCMmMhk2Y12DjaGkvEzMNNDRQwaQ' : process.env.SESSION_ID, 
+   SESSION_ID: process.env.SESSION_ID === undefined ? 'VAJIRA-MD=OZVjHQJQ#KHcJcVwWMqhNWYXz2qO6vun0TsyNxhshDJzNUj4mMQ4' : process.env.SESSION_ID, 
    DATABASE_URL: process.env.DATABASE_URL === undefined ? 'postgres://movie_my_user:BDXztL7cmv1gV26b9eCsAseSMp7tqyvW@dpg-co1n7jvsc6pc73ctrku0-a.oregon-postgres.render.com/movie_my' : process.env.DATABASE_URL,
    PREFIX: process.env.PREFIX || '.' ,
    JID: process.env.JID || `94719199757@s.whatsapp.net` , 
